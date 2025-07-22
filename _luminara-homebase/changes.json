@@ -100093,5 +100093,37 @@
                 "new_value": "2310609"
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-22T09:31:50.033553+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.interface.version",
+                "type": "modified",
+                "old_value": "1.29.0",
+                "new_value": "1.31.1"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2310609",
+                "new_value": "2311043"
+            }
+        ]
     }
 ]
