@@ -104014,5 +104014,73 @@
                 "new_value": "1.31.2"
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-25T10:30:12.085614+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.L0vd.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "2907301",
+                "new_value": "2907605"
+            },
+            {
+                "team": "L0vd",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.interface.version",
+                "type": "modified",
+                "old_value": "1.31.1",
+                "new_value": "1.31.2"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.5ElementsNodes.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "2907297",
+                "new_value": "2907717"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2342533",
+                "new_value": "2342952"
+            }
+        ]
     }
 ]
