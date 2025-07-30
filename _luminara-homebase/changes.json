@@ -107276,5 +107276,55 @@
                 "new_value": "2377703"
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-30T17:26:25.567931+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2377703",
+                "new_value": "2378098"
+            },
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.interface.version",
+                "type": "modified",
+                "old_value": "1.31.2",
+                "new_value": "1.31.4"
+            },
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.interface.version",
+                "type": "modified",
+                "old_value": "1.31.2",
+                "new_value": "1.31.4"
+            },
+            {
+                "team": "TuDudes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.TuDudes.interface.version",
+                "type": "modified",
+                "old_value": "1.31.1",
+                "new_value": "1.31.4"
+            },
+            {
+                "team": "TuDudes",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.TuDudes.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
